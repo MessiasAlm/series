@@ -1,0 +1,23 @@
+#container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  display: flex;
+  height: 230px;
+  width: 100%;
+  gap: 20px;
+  padding: 0 20px 0 20px;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: ew-resize;
+}
+
+#box img {
+  border-radius: 5px;
+}
