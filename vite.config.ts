@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
   server: {
     proxy: {
-      "/api": "https://series-ks60.onrender.com/api",
+      "/api": "https://series-wpwq.onrender.com",
     },
   },
 });

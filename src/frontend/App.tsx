@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("https://series-ks60.onrender.com/api");
+        const res = await fetch("https://series-wpwq.onrender.com/api");
         const data = await res.json();
         setState(data.results);
       } catch (err) {
